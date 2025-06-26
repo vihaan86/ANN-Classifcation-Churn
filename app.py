@@ -1,8 +1,4 @@
-import streamlit as st
-import numpy as np
-from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
-import pandas as pd
-import pickle
+
 
 # Load the trained model
 model = tensorflow.keras.models.load_model('model.h5')
