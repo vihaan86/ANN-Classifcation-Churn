@@ -1,7 +1,7 @@
 
 
 # Load the trained model
-model = tensorflow.keras.models.load_model('model.h5')
+model = load_model('model.h5')
 
 # Load the encoders and scaler
 with open('le.pkl', 'rb') as file:
